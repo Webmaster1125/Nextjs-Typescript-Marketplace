@@ -7,6 +7,7 @@ import styles from '@styles/Layout.module.css';
 const Layout = ({ children }) => {
     return (
         <>
+        <div></div>
             <HeadTag></HeadTag>
             <Nav></Nav>
             <div className={styles.container}>
